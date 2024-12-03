@@ -1,0 +1,18 @@
+name: "Task"
+description: "Submit a short definite piece of work."
+title: "Task: <title>"
+projects: []
+type: "Task"
+labels: []
+body:
+- type: textarea
+  attributes:
+    label: "Subject"
+  id: subject
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Notes (Optional)"
+    placeholder: "Any other useful information, links, screenshots?"
+  id: notes
