@@ -1,0 +1,33 @@
+name: "Feature"
+description: "Make a feature request."
+labels: ["enhancement"]
+title: "Feature: <Short summary of the feature>"
+type: "Feature"
+body:
+- type: textarea
+  attributes:
+    label: "Problem/Opportunity"
+    placeholder: "Describe the user need or problem this feature addresses."
+  id: usecase
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Proposed Solution"
+    description: "Explain your idea for the feature and how it addresses the problem/opportunity."
+  id: solution
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Acceptance Criteria (Optional)"
+    placeholder: |
+      * <Specific condition 1>
+      * <Specific condition 2>
+      * ...
+  id: criteria
+- type: textarea
+  attributes:
+    label: "Additional Notes (Optional)"
+    placeholder: "Any additional mockups, sketches, wireframes, etc."
+  id: notes

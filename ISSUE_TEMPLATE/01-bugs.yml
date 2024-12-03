@@ -1,0 +1,42 @@
+name: "Bug"
+description: "Report an issue or bug."
+labels: ["bug"]
+type: "Bug"
+title: "Bug: <Short summary of the problem>"
+body:
+- type: textarea
+  attributes:
+    label: "Problem/Opportunity"
+    placeholder: "What's going wrong? Be specific."
+  id: opportunity
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Steps to reproduce"
+    placeholder: |
+      If applicable, list the steps to recreate the issue;
+        1.
+        2.
+        3.
+      ...
+  id: steps
+- type: textarea
+  attributes:
+    label: "Expected Behavior"
+    placeholder: "Explain what should happen instead of the current behavior."
+  id: expected
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Actual Behavior"
+    placeholder: "Describe what is currently happening."
+  id: actual
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: "Notes (Optional)"
+    placeholder: "Any other helpful information, links, or screenshots."
+  id: notes
