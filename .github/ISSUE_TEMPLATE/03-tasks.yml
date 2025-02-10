@@ -1,13 +1,14 @@
 name: "Task"
 description: "Submit a short definite piece of work."
-title: "Task: <title>"
+title: "Task:<Short summary of the problem>"
 projects: []
 type: "Task"
 labels: []
 body:
 - type: textarea
   attributes:
-    label: "Subject"
+    label: "Goal"
+    placeholder: "Clearly stating the goal of the task is crucial for understanding the requirement."
   id: subject
   validations:
     required: true
