@@ -1,18 +1,29 @@
 {
     "name": "RDK CI/CD Pipeline",
-    "description": "Continuous integration and deployment workflow for RDK projects with cross-platform builds, testing, and artifact management.",
+    "description": "Comprehensive CI/CD workflow for RDK projects with BitBake/Yocto builds, TDK testing, security scanning, and deployment capabilities for RDK-V, RDK-B, RDK-C, Thunder, and Lightning components.",
     "iconName": "rocket",
     "categories": [
         "C",
         "C++",
+        "JavaScript",
         "Deployment",
-        "Testing"
+        "Testing",
+        "Yocto",
+        "BitBake"
     ],
     "filePatterns": [
         "CMakeLists.txt",
         "Makefile*",
         "*.mk",
+        "*.bb",
+        "*.bbappend",
         "bitbake/**",
-        "meta-*/**"
+        "meta-*/**",
+        "conf/local.conf",
+        "conf/bblayers.conf",
+        "recipes-*/**",
+        "package.json",
+        "lightning.config.js",
+        "thunder.json"
     ]
 }

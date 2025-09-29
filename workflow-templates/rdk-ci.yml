@@ -1,64 +1,123 @@
-name: RDK Build and Test
-description: Standard CI workflow for RDK projects
-icon: activity
+name: RDK CI/CD Pipeline
+description: Standard CI/CD workflow for RDK projects with build, test, and deployment
+icon: rocket
 color: blue
 
 inputs:
+  rdk-profile:
+    description: 'RDK profile to build (rdk-v, rdk-b, rdk-c, thunder, lightning)'
+    required: true
+    default: 'thunder'
+
   rdk-version:
     description: 'RDK version to build against'
     required: true
-    default: '2024.Q3'
-  
-  platform:
-    description: 'Target platform for build'
+    default: 'RDK7'
+
+  target-platform:
+    description: 'Target platform/chipset for build'
     required: true
-    default: 'generic'
-    
-  run-tests:
-    description: 'Run test suite after build'
+    default: 'generic-x86_64'
+
+  run-tdk-tests:
+    description: 'Run Test Development Kit (TDK) test suite'
     required: false
     default: true
+    type: boolean
+
+  deploy-artifacts:
+    description: 'Deploy build artifacts'
+    required: false
+    default: false
     type: boolean
 
 runs:
   using: composite
   steps:
-    - name: Checkout
+    - name: Checkout Repository
       uses: actions/checkout@v4
       with:
         submodules: recursive
-        
-    - name: Setup RDK Environment
+        fetch-depth: 0
+
+    - name: Setup RDK Build Environment
       shell: bash
       run: |
-        echo "Setting up RDK ${{ inputs.rdk-version }} for ${{ inputs.platform }}"
-        # Add RDK environment setup commands here
-        
-    - name: Cache Dependencies
+        echo "Setting up RDK ${{ inputs.rdk-version }} build environment"
+        echo "Profile: ${{ inputs.rdk-profile }}"
+        echo "Platform: ${{ inputs.target-platform }}"
+        # Install RDK build dependencies
+        # Setup cross-compilation toolchain
+        # Configure build environment variables
+
+    - name: Validate RDK Configuration
+      shell: bash
+      run: |
+        echo "Validating RDK configuration..."
+        # Verify RDK profile compatibility
+        # Check platform-specific requirements
+        # Validate component dependencies
+
+    - name: Cache RDK Dependencies
       uses: actions/cache@v4
       with:
         path: |
-          ~/.cache/rdk
-          **/node_modules
-        key: ${{ runner.os }}-rdk-${{ inputs.rdk-version }}-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
-        
+          ~/.cache/rdk-build
+          build/tmp/sstate-cache
+          build/downloads
+        key: ${{ runner.os }}-rdk-${{ inputs.rdk-version }}-${{ inputs.rdk-profile }}-${{ inputs.target-platform }}-${{ hashFiles('**/conf/local.conf', '**/conf/bblayers.conf') }}
+        restore-keys: |
+          ${{ runner.os }}-rdk-${{ inputs.rdk-version }}-${{ inputs.rdk-profile }}-
+          ${{ runner.os }}-rdk-${{ inputs.rdk-version }}-
+
     - name: Build RDK Components
       shell: bash
       run: |
-        echo "Building RDK components..."
-        # Add build commands specific to RDK
-        
-    - name: Run Tests
-      if: ${{ inputs.run-tests == true }}
+        echo "Building RDK ${{ inputs.rdk-profile }} components..."
+        # BitBake/Yocto build commands for RDK
+        # Component-specific build steps
+        # Platform-specific optimizations
+
+    - name: Run TDK Test Suite
+      if: ${{ inputs.run-tdk-tests == 'true' }}
       shell: bash
       run: |
-        echo "Running RDK test suite..."
-        # Add test commands
-        
-    - name: Upload Artifacts
+        echo "Running Test Development Kit (TDK) tests..."
+        # Execute TDK automated test framework
+        # Component-specific test scenarios
+        # Platform validation tests
+
+    - name: Package RDK Image
+      shell: bash
+      run: |
+        echo "Packaging RDK image for ${{ inputs.target-platform }}..."
+        # Create deployable RDK image
+        # Generate checksums and metadata
+        # Prepare distribution packages
+
+    - name: Security Scan
+      shell: bash
+      run: |
+        echo "Running security scans..."
+        # CVE scanning for RDK components
+        # Security policy validation
+        # License compliance check
+
+    - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: rdk-build-${{ inputs.platform }}
+        name: rdk-${{ inputs.rdk-profile }}-${{ inputs.target-platform }}-${{ github.sha }}
         path: |
-          build/
-          dist/
+          build/tmp/deploy/images/
+          build/tmp/deploy/ipk/
+          build/logs/
+        retention-days: 30
+
+    - name: Deploy to Test Environment
+      if: ${{ inputs.deploy-artifacts == 'true' && github.ref == 'refs/heads/main' }}
+      shell: bash
+      run: |
+        echo "Deploying RDK artifacts to test environment..."
+        # Deploy to staging/test environment
+        # Update device configurations
+        # Trigger integration tests

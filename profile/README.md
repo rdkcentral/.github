@@ -1,39 +1,49 @@
 # Welcome to RDK Central 🚀
 
-![RDK Central Banner](https://via.placeholder.com/1200x300/1f2937/ffffff?text=RDK+Central+-+Powering+the+Future+of+Connected+Devices)
+![RDK Global Summit 2025](https://rdkcentral.com/wp-content/uploads/2025/06/2025-Global-Summit-logo-on-light-RGB-768x321.png)
 
 ## About RDK Central
 
-RDK Central is the collaborative hub for the **Reference Design Kit (RDK)** - an open-source software stack that standardizes the technology used in video, broadband, and IoT devices. We're building the foundation for next-generation connected entertainment and smart home experiences.
+RDK Central is the **open source consortium** that manages the **Reference Design Kit (RDK)** - a fully modular, portable, and customizable open source software platform for the connected home. RDK standardizes core functions used in broadband devices, set-top boxes, and IoT devices.
+
+> **COLLABORATE. DIFFERENTIATE. INNOVATE.**
 
 ### 🌟 What is RDK?
 
-RDK provides a common framework for powering:
-- **Set-top boxes** and streaming devices
-- **Smart TVs** and media players
-- **Broadband gateways** and routers
-- **IoT devices** and smart home solutions
-
-## 🏗️ Our Ecosystem
+Utilizing open source components, RDK drastically reduces development cycles, encourages collaboration, and enhances innovation. It enables operators to:
+- **Manage devices** and control their business models
+- **Customize UIs and apps** with complete design freedom
+- **Leverage data analytics** to improve customer experience and drive business results
+- **Deploy faster** with standardized core functions across device types## 🏗️ RDK Profiles
 
 <table>
 <tr>
 <td width="50%">
 
 ### 📺 RDK-V (Video)
-- Video streaming platforms
-- STB/OTT solutions
-- Smart TV applications
-- Media framework components
+**Common method to manage video playback functions**
+- Content delivery (VOD, SDV, iPPV, Video over Wi-Fi)
+- DRM (Adobe Access, PlayReady, Widevine)
+- Adaptive bit rate with MPEG-DASH
+- Ultra HD/4K and HDR video output
+- Dolby MS12 audio support
+- Emergency alert system
+
+📄 [**Solution Brief**](https://rdkcentral.com/wp-content/uploads/2021/07/RDK-Video-brief-Final.pdf)
 
 </td>
 <td width="50%">
 
 ### 🌐 RDK-B (Broadband)
-- Gateway and router firmware
-- Network management tools
-- Security frameworks
-- Performance optimization
+**Common software solution across broadband access technologies**
+- Wi-Fi, Routing, Hotspot management
+- DOCSIS, GPON, and DSL support
+- Home security and parental controls
+- Dynamic DNS and MoCA
+- IoT integration and telemetry
+- Self-healing and monitoring
+
+📄 [**Solution Brief**](https://rdkcentral.com/wp-content/uploads/2021/07/RDK-Broadband-brief-5.1.pdf)
 
 </td>
 </tr>
@@ -41,19 +51,26 @@ RDK provides a common framework for powering:
 <td width="50%">
 
 ### 🏠 RDK-C (Camera/IoT)
-- IP camera solutions
-- IoT device frameworks
-- Edge computing platforms
-- Smart home integrations
+**Common components for IP-based video cameras**
+- Live video streaming
+- 24/7 continuous recording
+- Configuration management
+- Wi-Fi connectivity
+- Firmware upgrade capabilities
+- Thumbnail generation
 
 </td>
 <td width="50%">
 
-### 🛠️ Developer Tools
-- Build systems and SDKs
-- Testing frameworks
-- Documentation tools
-- Integration utilities
+### ⚡ Lightning & Firebolt
+**Next-generation app development platform**
+- **Lightning™ 3.0**: JavaScript UI framework
+- **Firebolt™**: Application platform for streaming apps
+- Pre-integrated global streaming apps
+- Accelerated certification process
+- Multi-threading and dynamic shaders
+
+🌐 [**LightningJS.io**](https://lightningjs.io/)
 
 </td>
 </tr>
@@ -61,85 +78,99 @@ RDK provides a common framework for powering:
 
 ## 🤝 Get Involved
 
-### For Developers
-- 🔧 **Contribute Code**: Check our [contributing guidelines](CONTRIBUTING.md)
-- 🐛 **Report Issues**: Use our issue templates for bugs and features
-- 📖 **Documentation**: Help improve our guides and API docs
-- 💬 **Community**: Join discussions in our repositories
+### 🚀 New to RDK?
+[![Get Involved](https://img.shields.io/badge/🚀_Get_Involved-Join_RDK-blue?style=for-the-badge)](https://rdkcentral.com/join)
+
+### 👨‍💻 Already Know RDK?
+[![Start Developing](https://img.shields.io/badge/👨‍💻_Start_Developing-Wiki-green?style=for-the-badge)](https://wiki.rdkcentral.com/)
+
+### � Need a User Account?
+[![Create Account](https://img.shields.io/badge/📝_Create_Account-Sign_Up-orange?style=for-the-badge)](https://wiki.rdkcentral.com/signup.action)
 
 ### For Organizations
-- 🏢 **Partner Program**: Collaborate on RDK implementations
-- 📋 **Certification**: Get your devices RDK-certified
-- 🎯 **Custom Solutions**: Build on our proven platform
-- 🔒 **Enterprise Support**: Professional services available
+- 🏢 **[Join RDK](https://rdkcentral.com/join/)**: Become part of our 600+ company community
+- 📋 **[Certification](https://rdkcentral.com/certification/)**: Get your devices RDK-certified
+- 🎯 **[Memberships](https://rdkcentral.com/memberships/)**: Strategic, Preferred Plus, and Preferred levels
+- 🔒 **Professional Services**: Custom implementations and training programs
 
-## 📊 Quick Stats
+## 📊 RDK Community
 
 <div align="center">
 
 | 📈 Metric | 🔢 Value |
 |-----------|----------|
-| Active Repositories | 100+ |
-| Contributors | 500+ |
-| Devices Powered | 100M+ |
-| Countries Deployed | 50+ |
+| **Companies** | 600+ |
+| **Active Repositories** | 100+ |
+| **Device Types** | Video, Broadband, IoT |
+| **Global Reach** | Worldwide Deployment |
+
+**Members Include:** CPE manufacturers, SoC vendors, software developers, system integrators, and service providers
 
 </div>
 
 ## 🔗 Key Repositories
 
 ### Core Platforms
-- **[RDK-V Components](https://github.com/rdkcentral/rdk-v)** - Video platform stack
-- **[RDK-B Gateway](https://github.com/rdkcentral/rdk-b)** - Broadband solutions
-- **[Thunder Framework](https://github.com/rdkcentral/thunder)** - Plugin architecture
-- **[Lightning](https://github.com/rdkcentral/lightning)** - Application framework
+- **[Thunder](https://github.com/rdkcentral/Thunder)** - Plugin-based application framework
+- **[ThunderNanoServices](https://github.com/rdkcentral/ThunderNanoServices)** - Service implementations
+- **[Lightning](https://github.com/rdkcentral/Lightning)** - JavaScript UI framework
+- **[Firebolt APIs](https://github.com/rdkcentral/firebolt-apis)** - Open RDK APIs for applications
+- **[RDK-V](https://github.com/rdkcentral/rdkv-halif-test-device_settings)** - Video platform components
+- **[RDK-B](https://github.com/rdkcentral/rdkb-CcspPandM)** - Broadband solutions
 
-### Development Tools
-- **[Build Tools](https://github.com/rdkcentral/build-tools)** - Cross-compilation environment
-- **[Testing Suite](https://github.com/rdkcentral/test-suite)** - Automated testing framework
-- **[SDK](https://github.com/rdkcentral/sdk)** - Developer toolkit
+### Development Tools & Testing
+- **[Test Development Kit (TDK)](https://github.com/rdkcentral/TDK_Framework)** - Automated testing framework
+- **[RDK Tools](https://github.com/rdkcentral/rdk-tools)** - Development utilities
+- **[Mock Services](https://github.com/rdkcentral/mock-firebolt)** - Development testing tools
 
 ## 🌍 Community & Resources
 
 <div align="center">
 
 [![Website](https://img.shields.io/badge/🌐_Website-rdkcentral.com-blue?style=for-the-badge)](https://rdkcentral.com)
-[![Wiki](https://img.shields.io/badge/📚_Wiki-wiki.rdkcentral.com-green?style=for-the-badge)](https://wiki.rdkcentral.com)
-[![Forums](https://img.shields.io/badge/💬_Forums-forum.rdkcentral.com-orange?style=for-the-badge)](https://forum.rdkcentral.com)
-[![Slack](https://img.shields.io/badge/💬_Slack-rdkcentral.slack.com-purple?style=for-the-badge)](https://rdkcentral.slack.com)
+[![Wiki & Documentation](https://img.shields.io/badge/📚_Wiki-wiki.rdkcentral.com-green?style=for-the-badge)](https://wiki.rdkcentral.com)
+[![Twitter](https://img.shields.io/badge/�_Twitter-@rdkcentral-1DA1F2?style=for-the-badge)](https://twitter.com/rdkcentral)
+[![LinkedIn](https://img.shields.io/badge/�_LinkedIn-RDK_Central-0077B5?style=for-the-badge)](https://www.linkedin.com/company/rdkcentral/)
 
 </div>
 
-### 📚 Learning Resources
-- **[Developer Portal](https://developer.rdkcentral.com)** - Getting started guides
-- **[API Documentation](https://docs.rdkcentral.com)** - Complete API reference
-- **[Video Tutorials](https://www.youtube.com/c/rdkcentral)** - Step-by-step guides
-- **[Certification Program](https://certification.rdkcentral.com)** - Professional training
+### 📚 Developer Resources
+- **[RDK Wiki](https://wiki.rdkcentral.com/)** - Primary resource for code repositories and development
+- **[RDK7 Release Notes](https://wiki.rdkcentral.com/display/RDK/RDK7+Release+Notes)** - Latest RDK7 architecture
+- **[Code Management Facility](https://wiki.rdkcentral.com/display/CMF/CMF+Home)** - Code releases and repositories
+- **[Forums](https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home)** - Community discussions
+- **[Logo Guidelines](https://wiki.rdkcentral.com/display/RDK/Logo+Guidelines)** - Brand assets and usage
 
-## 🔒 Security & Compliance
+## 🔒 Security & Licensing
 
-Security is paramount in our connected world. We maintain:
+Security and proper licensing are fundamental to RDK:
 
-- 🛡️ **Vulnerability Management** - Proactive security monitoring
-- 🔐 **Secure Boot** - Hardware-based security foundation
-- 📋 **Compliance Standards** - Industry certifications (FIPS, Common Criteria)
-- 🚨 **Incident Response** - 24/7 security operations
+- 🛡️ **Security Guidelines** - [Comprehensive security practices](https://wiki.rdkcentral.com/display/RDK/Security+Guidelines)
+- � **Contributor License Agreement** - [Required for code contributions](https://wiki.rdkcentral.com/claagreement.action)
+- � **Vulnerability Reporting** - [Secure issue submission process](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)
+- � **Open Source Licenses** - [License information and compliance](https://rdkcentral.com/licenses/)
 
-**Found a security issue?** Please review our [Security Policy](SECURITY.md) for responsible disclosure.
+**Found a security issue?** Please review our [Security Guidelines](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue) for responsible disclosure.
 
 ## 📅 What's New
 
-### Recent Highlights
-- ✨ **RDK 2024.Q3** - Latest stable release with enhanced performance
-- 🎯 **AI/ML Integration** - New machine learning capabilities
-- 🌩️ **Cloud Native** - Kubernetes and container support
-- 📱 **Mobile SDK** - Cross-platform development tools
+### 🚀 RDK7 Architecture Revolution
+RDK7 represents a **transformative evolution** with a modular, multi-layered design:
+- **Vendor Layer** - Improved Vendor Porting Kit for seamless chipset integration
+- **Core RDK Middleware** - Robust foundation layer
+- **Dynamic Application Layer** - Independent app development and deployment
+- **Faster Innovation** - Parallel development and accelerated time-to-market
+- **Enhanced Security** - Layer separation and targeted security hardening
 
-### Upcoming Events
-- 🎤 **RDK Summit 2024** - Annual developer conference
-- 📅 **Monthly Webinars** - Technical deep-dives
-- 🏆 **Hackathons** - Innovation challenges
-- 📚 **Training Sessions** - Certification workshops
+### ⚡ Lightning 3.0 & Firebolt
+- **Lightning™ 3.0** - Enhanced JavaScript UI framework with improved font rendering, batched rendering, and multithreading
+- **Firebolt™ Platform** - Pre-integrated global streaming apps with accelerated certification
+- **Dynamic Shaders** - Advanced graphics capabilities
+
+### 📅 Recent Events
+- 🎤 **RDK Global Summit 2025** - Slides and recordings available soon
+- 📅 **RDK Tech Summit 2025** - [Slides and videos now available](https://wiki.rdkcentral.com/display/CONF/Technology+Summit+2025)
+- 🏆 **RDK Hackathon 2025** - Innovation challenges completed
 
 ## 🏆 Success Stories
 
@@ -153,21 +184,24 @@ Security is paramount in our connected world. We maintain:
 
 ## 📞 Contact & Support
 
-- 📧 **General**: info@rdkcentral.com
-- 🛠️ **Technical**: support@rdkcentral.com
-- 🤝 **Partnership**: partners@rdkcentral.com
-- 🔒 **Security**: security@rdkcentral.com
-
----
+- 📧 **General Inquiries**: [info@rdkcentral.com](mailto:info@rdkcentral.com)
+- � **Membership**: [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
+- 🤝 **Partnerships**: Contact through [rdkcentral.com/join](https://rdkcentral.com/join/)
+- 🆘 **RDK Support**: [Visit Support Portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support)
+- � **Documentation**: Primary resource at [wiki.rdkcentral.com](https://wiki.rdkcentral.com/)---
 
 <div align="center">
 
-**Built with ❤️ by the global RDK community**
+**RDK Management, LLC - Open Source Consortium**
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+*RDK is an open source software platform for the connected home that standardizes core functions used in broadband devices, set-top boxes, and IoT.*
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://rdkcentral.com/licenses/)
 [![Contributors](https://img.shields.io/github/contributors/rdkcentral/.github.svg)](https://github.com/rdkcentral/.github/graphs/contributors)
-[![Stars](https://img.shields.io/github/stars/rdkcentral?style=social)](https://github.com/rdkcentral)
+[![Community](https://img.shields.io/badge/Community-600%2B_Companies-green)](https://rdkcentral.com/join/)
 
-*Empowering innovation in connected entertainment and IoT devices worldwide* 🌟
+**🌟 COLLABORATE. DIFFERENTIATE. INNOVATE. 🌟**
+
+*Copyright © 2025 RDK Management, LLC*
 
 </div>

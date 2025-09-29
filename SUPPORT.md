@@ -4,10 +4,11 @@ Looking for help with RDK Central projects? Here's how to get the support you ne
 
 ## 🚀 Quick Start Resources
 
-- **[Developer Portal](https://developer.rdkcentral.com)** - Getting started guides and tutorials
-- **[API Documentation](https://docs.rdkcentral.com)** - Complete API reference and examples
-- **[Wiki](https://wiki.rdkcentral.com)** - Comprehensive knowledge base
-- **[FAQ](https://wiki.rdkcentral.com/display/RDK/FAQ)** - Frequently asked questions
+- **[RDK Wiki](https://wiki.rdkcentral.com/)** - Primary resource for RDK code repositories and development information
+- **[RDK Support Portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support)** - Official support resources
+- **[Join RDK](https://rdkcentral.com/join/)** - Information on becoming part of the RDK community
+- **[RDK Documentation](https://wiki.rdkcentral.com/display/RDK/RDK+Documentation)** - Comprehensive technical documentation
+- **[Code Management Facility](https://wiki.rdkcentral.com/display/CMF/CMF+Home)** - Access to code releases and repositories
 
 ## 💬 Community Support
 
@@ -18,10 +19,10 @@ Use GitHub Discussions in relevant repositories for:
 - Best practices sharing
 - Community showcase
 
-### Forums & Chat
-- **[RDK Forums](https://forum.rdkcentral.com)** - Structured community discussions
-- **[Slack Workspace](https://rdkcentral.slack.com)** - Real-time chat with developers
-- **[Developer Mailing Lists](https://lists.rdkcentral.com)** - Technical announcements and discussions
+### Forums & Community
+- **[RDK Forums](https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home)** - Community discussions and support
+- **[RDK Preferred Forums](https://wiki.rdkcentral.com/)** - Expert moderated forums for RDK Preferred members
+- **[Community Updates](https://rdkcentral.com/news/community-updates/)** - Latest community news and updates
 
 ## 🐛 Issue Reporting
 
@@ -42,26 +43,22 @@ Have an idea for improvement? We'd love to hear it:
 
 ## 🏢 Commercial Support
 
-### Professional Services
-For organizations needing dedicated support:
+### Membership & Professional Services
 
-- **Architecture Consulting** - Design review and optimization
-- **Custom Development** - Tailored solutions and integrations
-- **Training & Certification** - Team enablement programs
-- **24/7 Support** - Production environment assistance
+#### RDK Membership Levels
+- **[RDK Preferred](https://rdkcentral.com/memberships/)** - Enhanced access to expert forums, support tickets, conference materials, and training
+- **[Preferred Plus Members](https://rdkcentral.com/preferred-plus-members/)** - Extended benefits and priority support
+- **[Strategic Members](https://rdkcentral.com/join/)** - Top-tier partnership and collaboration
 
-Contact: **support@rdkcentral.com**
+Contact: **[membership@rdkcentral.com](mailto:membership@rdkcentral.com)**
 
-### Partnership Program
-Join our partner ecosystem:
+### Partnership & Collaboration
+Join our 600+ company ecosystem:
 
-- **Technology Partners** - Hardware and software integrations
-- **Service Partners** - Implementation and support services
-- **Training Partners** - Certified education providers
-
-Contact: **partners@rdkcentral.com**
-
-## 📚 Documentation Contributions
+- **[How to Join RDK](https://rdkcentral.com/join/)** - Become part of the RDK community
+- **[Working Groups](https://rdkcentral.com/working-groups/)** - Participate in technical working groups
+- **[Certification Program](https://rdkcentral.com/certification/)** - Get your devices RDK-certified
+- **[Firebolt Connect](https://rdkcentral.com/firebolt-connect/)** - Application platform partnerships## 📚 Documentation Contributions
 
 Help improve our documentation:
 
@@ -80,31 +77,25 @@ If you discover a security issue:
 3. **Email security@rdkcentral.com** with details
 4. **Use PGP encryption** for sensitive information
 
-### Security Updates
-Stay informed about security:
+### Security Resources
+Stay informed about RDK security:
 
-- **Security Advisories** - Subscribe to security notifications
-- **CVE Database** - Track known vulnerabilities
-- **Security Blog** - Best practices and updates
+- **[Security Guidelines](https://wiki.rdkcentral.com/display/RDK/Security+Guidelines)** - Comprehensive security practices
+- **[How to Submit Security Issues](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)** - Secure reporting process
+- **[Privacy Policy](https://wiki.rdkcentral.com/display/RDK/Privacy+Policy)** - RDK privacy practices
 
 ## 📞 Contact Information
 
-### General Support
-- **Email**: support@rdkcentral.com
-- **Hours**: 24/7 for critical issues, business hours for general inquiries
-- **Response Time**:
-  - Critical: 2 hours
-  - High: 8 hours
-  - Normal: 2 business days
+### Official Contact Information
+- **General Inquiries**: [info@rdkcentral.com](mailto:info@rdkcentral.com)
+- **Membership Questions**: [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
+- **RDK Support Portal**: [wiki.rdkcentral.com/display/RDK/RDK+Support](https://wiki.rdkcentral.com/display/RDK/RDK+Support)
 
-### Specific Teams
-- **Technical Support**: tech-support@rdkcentral.com
-- **Documentation**: docs@rdkcentral.com
-- **Community**: community@rdkcentral.com
-- **Partnerships**: partners@rdkcentral.com
-- **Security**: security@rdkcentral.com
-
-## 📈 Support Escalation
+### Support Channels
+- **Primary Support**: Through RDK Wiki and official support portal
+- **RDK Preferred Members**: Access to expert moderated forums and support ticketing
+- **Community Forums**: Available to all members through the Wiki
+- **Security Issues**: Use secure reporting process in Wiki## 📈 Support Escalation
 
 ### Escalation Path
 1. **Community Forums** - Start here for general questions
@@ -138,4 +129,4 @@ We provide support across multiple regions:
 
 ---
 
-**Need help right now?** Start with our [Quick Start Guide](https://developer.rdkcentral.com/quickstart) or join our [Slack community](https://rdkcentral.slack.com) for immediate assistance from fellow developers.
+**Need help right now?** Start with the [RDK Wiki](https://wiki.rdkcentral.com/) or visit the [RDK Support Portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support) for comprehensive assistance. New to RDK? Visit [rdkcentral.com/join](https://rdkcentral.com/join/) to get started.

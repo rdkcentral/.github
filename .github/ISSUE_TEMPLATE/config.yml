@@ -1,22 +1,29 @@
-# This configuration will customize the template chooser
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: "💬 Community Forum"
-    url: "https://github.com/orgs/rdkcentral/discussions"
-    about: "General questions and community discussions"
+  - name: "🏠 RDK Central Website"
+    url: "https://rdkcentral.com"
+    about: "Main RDK website with information about joining and partnerships"
 
-  - name: "📚 Documentation"
-    url: "https://developer.rdkcentral.com"
-    about: "API documentation and guides"
+  - name: "📚 RDK Wiki & Documentation"
+    url: "https://wiki.rdkcentral.com"
+    about: "Primary resource for RDK documentation, code repositories, and development information"
 
-  - name: "🆘 Support"
-    url: "https://wiki.rdkcentral.com/display/RDK/Support"
-    about: "Get help with RDK implementation and troubleshooting"
+  - name: "💬 RDK Forums"
+    url: "https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home"
+    about: "Community discussions and support forums"
+
+  - name: "🆘 RDK Support Portal"
+    url: "https://wiki.rdkcentral.com/display/RDK/RDK+Support"
+    about: "Official RDK support resources and help"
 
   - name: "🔒 Security Issues"
-    url: "mailto:security@rdkcentral.com"
-    about: "Report security vulnerabilities privately"
+    url: "https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue"
+    about: "Report security vulnerabilities using our secure process"
 
-  - name: "💼 Commercial Support"
-    url: "mailto:support@rdkcentral.com"
-    about: "Enterprise support and professional services"
+  - name: "👥 Join RDK Community"
+    url: "https://rdkcentral.com/join/"
+    about: "Information about joining the RDK community and membership levels"
+
+  - name: "📧 General Inquiries"
+    url: "mailto:info@rdkcentral.com"
+    about: "General questions and information requests"

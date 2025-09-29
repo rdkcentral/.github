@@ -14,13 +14,20 @@ Thank you for your interest in contributing to RDK Central! We welcome contribut
 ## 📋 Before You Start
 
 ### Contributor License Agreement (CLA)
-Before RDK accepts your code into the project, you must sign the RDK Contributor License Agreement (CLA). This ensures that contributions can be freely used by the community while protecting both contributors and users.
+**REQUIRED**: Before RDK accepts your code into the project, you **must** sign the RDK Contributor License Agreement (CLA).
 
-- **Individual CLA**: For personal contributions
-- **Corporate CLA**: For contributions made on behalf of an organization
+🖊️ **[Sign the CLA here](https://wiki.rdkcentral.com/claagreement.action)**
 
-### Code of Conduct
-All contributors must follow our [Code of Conduct](CODE_OF_CONDUCT.md). We're committed to providing a welcoming and inclusive environment for everyone.
+This ensures that contributions can be freely used by the community while protecting both contributors and users.
+
+### RDK Membership & Access
+- **Read-only access**: Available to all developers via [RDK Wiki](https://wiki.rdkcentral.com/)
+- **Write access**: Requires signed CLA for code contributions
+- **RDK Preferred**: Enhanced access to expert forums, support tickets, and training materials
+- **Membership inquiries**: Contact [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
+
+### Repository Governance
+All contributors must follow our [Repository Governance](CODE_OF_CONDUCT.md) guidelines for technical contributions and maintainer responsibilities.
 
 ## 🛠️ Development Setup
 
@@ -30,17 +37,11 @@ All contributors must follow our [Code of Conduct](CODE_OF_CONDUCT.md). We're co
 - Development environment (see component-specific documentation)
 
 ### Setting Up Your Environment
-1. Fork the repository on GitHub
-2. Clone your fork:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
-   cd repository-name
-   ```
-3. Add upstream remote:
-   ```bash
-   git remote add upstream https://github.com/rdkcentral/repository-name.git
-   ```
-4. Install dependencies (component-specific)
+1. **Join RDK**: Visit [rdkcentral.com/join](https://rdkcentral.com/join) to understand membership options
+2. **Sign CLA**: Complete the [Contributor License Agreement](https://wiki.rdkcentral.com/claagreement.action)
+3. **Access Wiki**: Use [wiki.rdkcentral.com](https://wiki.rdkcentral.com/) for documentation and repositories
+4. **Fork and Clone**: Follow standard GitHub workflow for the specific repository
+5. **Build Environment**: Refer to component-specific build instructions in the Wiki
 
 ## 📝 Contribution Types
 
@@ -114,32 +115,40 @@ Types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
 ## 🏗️ Component-Specific Guidelines
 
 ### RDK-V (Video)
-- Focus on performance and memory efficiency
-- Consider multi-platform compatibility
-- Test with various media formats and codecs
+**RDK7 Architecture** - New modular, multi-layered design
+- Follow vendor layer, core middleware, and application layer separation
+- Ensure compatibility with Lightning 3.0 and Firebolt APIs
+- Test with Ultra HD/4K and HDR content
+- Consider DRM integration (PlayReady, Widevine, Adobe Access)
 
 ### RDK-B (Broadband)
-- Ensure network security best practices
-- Test with different network configurations
-- Consider performance under load
+**Broadband Gateway Solutions**
+- Support DOCSIS, GPON, and DSL technologies
+- Implement Wi-Fi, routing, and hotspot management
+- Follow home security and parental control standards
+- Ensure MoCA and IoT integration compatibility
 
 ### RDK-C (Camera/IoT)
-- Focus on power efficiency
-- Test device compatibility
-- Consider privacy and security implications
+**IP Camera Platform Components**
+- Focus on live streaming and 24/7 recording capabilities
+- Implement proper Wi-Fi connectivity management
+- Ensure firmware upgrade mechanisms
+- Consider privacy and security in camera applications
 
-### Thunder Framework
-- Maintain plugin architecture principles
-- Ensure thread safety
-- Test plugin interactions
+### Thunder & Lightning
+**Plugin Architecture & UI Framework**
+- **Thunder**: Maintain plugin-based service architecture
+- **Lightning 3.0**: Follow JavaScript UI framework patterns
+- **Firebolt**: Implement standardized APIs for applications
+- Ensure cross-platform compatibility and performance
 
 ## 🚨 Security Contributions
 
 For security-related contributions:
-- Follow our [Security Policy](SECURITY.md)
-- Do not include security issues in public PRs
-- Contact security@rdkcentral.com for sensitive matters
-- Use responsible disclosure practices
+- Follow our [Security Guidelines](https://wiki.rdkcentral.com/display/RDK/Security+Guidelines)
+- **DO NOT** include security issues in public PRs or issues
+- Use the [secure reporting process](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)
+- Follow responsible disclosure practices as outlined in our Wiki
 
 ## 📊 Performance Contributions
 
@@ -160,10 +169,10 @@ Help make RDK accessible globally:
 ## 🤔 Questions and Support
 
 ### Getting Help
-- **Documentation**: Check existing docs first
-- **Community Forum**: Ask questions in our forum
-- **GitHub Discussions**: Use repository discussions for technical questions
-- **Slack**: Join our developer Slack for real-time help
+- **RDK Wiki**: Primary resource at [wiki.rdkcentral.com](https://wiki.rdkcentral.com/)
+- **RDK Forums**: [Community discussions](https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home)
+- **RDK Support**: [Official support portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support)
+- **Code Management**: [Repository access](https://wiki.rdkcentral.com/display/CMF/CMF+Home)
 
 ### Mentorship
 New contributors can request mentorship:
@@ -191,10 +200,11 @@ Participate in our community:
 
 ## 📞 Contact
 
-- **General Contributions**: contribute@rdkcentral.com
-- **Technical Questions**: dev-support@rdkcentral.com
-- **Community**: community@rdkcentral.com
-- **Security**: security@rdkcentral.com
+- **General Information**: [info@rdkcentral.com](mailto:info@rdkcentral.com)
+- **Membership Questions**: [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
+- **Security Issues**: Follow [secure reporting process](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)
+- **Technical Support**: [RDK Support Portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support)
+- **Join RDK**: [rdkcentral.com/join](https://rdkcentral.com/join/)
 
 ---
 

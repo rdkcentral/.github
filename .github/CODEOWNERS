@@ -1,27 +1,11 @@
-# Global Owners
-# These owners will be the default owners for everything in the repo.
-# Unless a later match takes precedence, they will be requested for
-# review when someone opens a pull request.
-*                           @rdkcentral/maintainers
+# RDK Central Code Owners
+# Selective protection for critical organization files
 
-# Community Health Files
-/.github/                   @rdkcentral/community-team
-/CODE_OF_CONDUCT.md        @rdkcentral/community-team
-/CONTRIBUTING.md           @rdkcentral/community-team
-/SECURITY.md               @rdkcentral/security-team
-/SUPPORT.md                @rdkcentral/community-team
+# GitHub infrastructure and templates
+/.github/                   @rdkcentral/cmf-collaborators
 
-# Organization Profile
-/profile/                   @rdkcentral/community-team @rdkcentral/maintainers
-
-# Issue Templates
-/ISSUE_TEMPLATE/           @rdkcentral/community-team
-
-# Workflow Templates
-/workflow-templates/       @rdkcentral/devops-team
-
-# Pull Request Templates
-pull_request_template.md   @rdkcentral/maintainers
-
-# Documentation
-*.md                       @rdkcentral/docs-team
+# Critical governance files
+/CODE_OF_CONDUCT.md        @rdkcentral/cmf-collaborators
+/SECURITY.md               @rdkcentral/cmf-collaborators
+LICENSE                    @rdkcentral/cmf-collaborators
+/LICENSE                   @rdkcentral/cmf-collaborators
