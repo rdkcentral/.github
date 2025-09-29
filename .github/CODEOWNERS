@@ -2,26 +2,24 @@
 # These owners will be the default owners for everything in the repo.
 # Unless a later match takes precedence, they will be requested for
 # review when someone opens a pull request.
-*                           @rdkcentral/maintainers
+*                           @rdkcentral/cmf-collaborators
 
 # Community Health Files
-/.github/                   @rdkcentral/community-team
-/CODE_OF_CONDUCT.md        @rdkcentral/community-team
-/CONTRIBUTING.md           @rdkcentral/community-team
-/SECURITY.md               @rdkcentral/security-team
-/SUPPORT.md                @rdkcentral/community-team
+/.github/                   @rdkcentral/cmf-collaborators
+/CODE_OF_CONDUCT.md        @rdkcentral/cmf-collaborators
+/CONTRIBUTING.md           @rdkcentral/cmf-collaborators
+/SECURITY.md               @rdkcentral/cmf-collaborators
+/SUPPORT.md                @rdkcentral/cmf-collaborators
 
 # Organization Profile
-/profile/                   @rdkcentral/community-team @rdkcentral/maintainers
+/profile/                   @rdkcentral/cmf-collaborators
 
 # Issue Templates
-/ISSUE_TEMPLATE/           @rdkcentral/community-team
+/ISSUE_TEMPLATE/           @rdkcentral/cmf-collaborators
 
 # Workflow Templates
-/workflow-templates/       @rdkcentral/devops-team
+/workflow-templates/       @rdkcentral/cmf-collaborators
 
 # Pull Request Templates
-pull_request_template.md   @rdkcentral/maintainers
+pull_request_template.md   @rdkcentral/cmf-collaborators
 
-# Documentation
-*.md                       @rdkcentral/docs-team
