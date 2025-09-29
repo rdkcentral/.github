@@ -1,2 +1,22 @@
 # This configuration will customize the template chooser
 blank_issues_enabled: true
+contact_links:
+  - name: "💬 Community Forum"
+    url: "https://github.com/orgs/rdkcentral/discussions"
+    about: "General questions and community discussions"
+
+  - name: "📚 Documentation"
+    url: "https://developer.rdkcentral.com"
+    about: "API documentation and guides"
+
+  - name: "🆘 Support"
+    url: "https://wiki.rdkcentral.com/display/RDK/Support"
+    about: "Get help with RDK implementation and troubleshooting"
+
+  - name: "🔒 Security Issues"
+    url: "mailto:security@rdkcentral.com"
+    about: "Report security vulnerabilities privately"
+
+  - name: "💼 Commercial Support"
+    url: "mailto:support@rdkcentral.com"
+    about: "Enterprise support and professional services"

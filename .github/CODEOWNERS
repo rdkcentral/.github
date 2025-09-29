@@ -1,5 +1,27 @@
-# These owners will be the default owners for everything in
-# the repo. Unless a later match takes precedence,
-# @global-owner1 and @global-owner2 will be requested for
+# Global Owners
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, they will be requested for
 # review when someone opens a pull request.
-*       @rdkcentral/cmf-collaborators
+*                           @rdkcentral/maintainers
+
+# Community Health Files
+/.github/                   @rdkcentral/community-team
+/CODE_OF_CONDUCT.md        @rdkcentral/community-team
+/CONTRIBUTING.md           @rdkcentral/community-team
+/SECURITY.md               @rdkcentral/security-team
+/SUPPORT.md                @rdkcentral/community-team
+
+# Organization Profile
+/profile/                   @rdkcentral/community-team @rdkcentral/maintainers
+
+# Issue Templates
+/ISSUE_TEMPLATE/           @rdkcentral/community-team
+
+# Workflow Templates
+/workflow-templates/       @rdkcentral/devops-team
+
+# Pull Request Templates
+pull_request_template.md   @rdkcentral/maintainers
+
+# Documentation
+*.md                       @rdkcentral/docs-team

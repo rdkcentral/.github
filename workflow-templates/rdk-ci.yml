@@ -1,0 +1,64 @@
+name: RDK Build and Test
+description: Standard CI workflow for RDK projects
+icon: activity
+color: blue
+
+inputs:
+  rdk-version:
+    description: 'RDK version to build against'
+    required: true
+    default: '2024.Q3'
+  
+  platform:
+    description: 'Target platform for build'
+    required: true
+    default: 'generic'
+    
+  run-tests:
+    description: 'Run test suite after build'
+    required: false
+    default: true
+    type: boolean
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        
+    - name: Setup RDK Environment
+      shell: bash
+      run: |
+        echo "Setting up RDK ${{ inputs.rdk-version }} for ${{ inputs.platform }}"
+        # Add RDK environment setup commands here
+        
+    - name: Cache Dependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/rdk
+          **/node_modules
+        key: ${{ runner.os }}-rdk-${{ inputs.rdk-version }}-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
+        
+    - name: Build RDK Components
+      shell: bash
+      run: |
+        echo "Building RDK components..."
+        # Add build commands specific to RDK
+        
+    - name: Run Tests
+      if: ${{ inputs.run-tests == true }}
+      shell: bash
+      run: |
+        echo "Running RDK test suite..."
+        # Add test commands
+        
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: rdk-build-${{ inputs.platform }}
+        path: |
+          build/
+          dist/
