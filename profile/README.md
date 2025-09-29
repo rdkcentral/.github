@@ -14,7 +14,9 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 - **Manage devices** and control their business models
 - **Customize UIs and apps** with complete design freedom
 - **Leverage data analytics** to improve customer experience and drive business results
-- **Deploy faster** with standardized core functions across device types## 🏗️ RDK Profiles
+- **Deploy faster** with standardized core functions across device types
+
+## 🏗️ RDK Profiles
 
 <table>
 <tr>
@@ -84,7 +86,7 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 ### 👨‍💻 Already Know RDK?
 [![Start Developing](https://img.shields.io/badge/👨‍💻_Start_Developing-Wiki-green?style=for-the-badge)](https://wiki.rdkcentral.com/)
 
-### � Need a User Account?
+### 📝 Need a User Account?
 [![Create Account](https://img.shields.io/badge/📝_Create_Account-Sign_Up-orange?style=for-the-badge)](https://wiki.rdkcentral.com/signup.action)
 
 ### For Organizations
@@ -129,8 +131,8 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 
 [![Website](https://img.shields.io/badge/🌐_Website-rdkcentral.com-blue?style=for-the-badge)](https://rdkcentral.com)
 [![Wiki & Documentation](https://img.shields.io/badge/📚_Wiki-wiki.rdkcentral.com-green?style=for-the-badge)](https://wiki.rdkcentral.com)
-[![Twitter](https://img.shields.io/badge/�_Twitter-@rdkcentral-1DA1F2?style=for-the-badge)](https://twitter.com/rdkcentral)
-[![LinkedIn](https://img.shields.io/badge/�_LinkedIn-RDK_Central-0077B5?style=for-the-badge)](https://www.linkedin.com/company/rdkcentral/)
+[![Twitter](https://img.shields.io/badge/🐦_Twitter-@rdkcentral-1DA1F2?style=for-the-badge)](https://twitter.com/rdkcentral)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-RDK_Central-0077B5?style=for-the-badge)](https://www.linkedin.com/company/rdkcentral/)
 
 </div>
 
@@ -146,9 +148,9 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 Security and proper licensing are fundamental to RDK:
 
 - 🛡️ **Security Guidelines** - [Comprehensive security practices](https://wiki.rdkcentral.com/display/RDK/Security+Guidelines)
-- � **Contributor License Agreement** - [Required for code contributions](https://wiki.rdkcentral.com/claagreement.action)
-- � **Vulnerability Reporting** - [Secure issue submission process](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)
-- � **Open Source Licenses** - [License information and compliance](https://rdkcentral.com/licenses/)
+- 📝 **Contributor License Agreement** - [Required for code contributions](https://wiki.rdkcentral.com/claagreement.action)
+- 🚨 **Vulnerability Reporting** - [Secure issue submission process](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue)
+- ⚖️ **Open Source Licenses** - [License information and compliance](https://rdkcentral.com/licenses/)
 
 **Found a security issue?** Please review our [Security Guidelines](https://wiki.rdkcentral.com/display/RDK/How+to+Submit+Security+Issue) for responsible disclosure.
 
@@ -185,10 +187,10 @@ RDK7 represents a **transformative evolution** with a modular, multi-layered des
 ## 📞 Contact & Support
 
 - 📧 **General Inquiries**: [info@rdkcentral.com](mailto:info@rdkcentral.com)
-- � **Membership**: [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
+- 🏢 **Membership**: [membership@rdkcentral.com](mailto:membership@rdkcentral.com)
 - 🤝 **Partnerships**: Contact through [rdkcentral.com/join](https://rdkcentral.com/join/)
 - 🆘 **RDK Support**: [Visit Support Portal](https://wiki.rdkcentral.com/display/RDK/RDK+Support)
-- � **Documentation**: Primary resource at [wiki.rdkcentral.com](https://wiki.rdkcentral.com/)---
+- 📚 **Documentation**: Primary resource at [wiki.rdkcentral.com](https://wiki.rdkcentral.com/)---
 
 <div align="center">
 

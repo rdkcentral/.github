@@ -57,8 +57,6 @@ Pre-configured GitHub Actions workflows specifically for RDK development:
 
 ## 📜 Community Health Files
 
-## 📜 Community Health Files
-
 - **Repository Governance**: Technical governance and maintainer responsibilities
 - **Contributing Guidelines**: RDK-specific contribution process with CLA requirements
 - **Security Guidelines**: Links to official RDK security reporting process
