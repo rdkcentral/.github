@@ -59,16 +59,10 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 ### 👨‍💻 Already Know RDK?
 [![Start Developing](https://img.shields.io/badge/👨‍💻_Start_Developing-Wiki-green?style=for-the-badge)](https://wiki.rdkcentral.com/)
 
-### 📝 Need a User Account?
-[![Create Account](https://img.shields.io/badge/📝_Create_Account-Sign_Up-orange?style=for-the-badge)](https://wiki.rdkcentral.com/signup.action)
 ### 📚 Developer Resources
 - **[RDK Wiki](https://wiki.rdkcentral.com/)** - Primary resource for code repositories and development
 - **[RDK7 Release Notes](https://wiki.rdkcentral.com/display/RDK/RDK7+Release+Notes)** - Latest RDK7 architecture
 - **[Code Management Facility](https://wiki.rdkcentral.com/display/CMF/CMF+Home)** - Code releases and repositories
 - **[Forums](https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home)** - Community discussions
-
-**🌟 COLLABORATE. DIFFERENTIATE. INNOVATE. 🌟**
-
-*Copyright © 2025 RDK Management, LLC*
 
 </div>
