@@ -30,9 +30,6 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 - Ultra HD/4K and HDR video output
 - Dolby MS12 audio support
 - Emergency alert system
-
-📄 [**Solution Brief**](https://rdkcentral.com/wp-content/uploads/2021/07/RDK-Video-brief-Final.pdf)
-
 </td>
 <td width="50%">
 
@@ -44,9 +41,6 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 - Dynamic DNS and MoCA
 - IoT integration and telemetry
 - Self-healing and monitoring
-
-📄 [**Solution Brief**](https://rdkcentral.com/wp-content/uploads/2021/07/RDK-Broadband-brief-5.1.pdf)
-
 </td>
 </tr>
 </table>
