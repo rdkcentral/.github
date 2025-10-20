@@ -22,7 +22,7 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 <tr>
 <td width="50%">
 
-### 📺 RDK-E (Enterainment OS)
+### 📺 RDK-E (Entertainment)
 **Common method to manage video playback functions**
 - Content delivery (VOD, SDV, iPPV, Video over Wi-Fi)
 - DRM (Adobe Access, PlayReady, Widevine)
@@ -55,14 +55,4 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 
 ### 🚀 New to RDK?
 [![Get Involved](https://img.shields.io/badge/🚀_Get_Involved-Join_RDK-blue?style=for-the-badge)](https://rdkcentral.com/join)
-
-### 👨‍💻 Already Know RDK?
-[![Start Developing](https://img.shields.io/badge/👨‍💻_Start_Developing-Wiki-green?style=for-the-badge)](https://wiki.rdkcentral.com/)
-
-### 📚 Developer Resources
-- **[RDK Wiki](https://wiki.rdkcentral.com/)** - Primary resource for code repositories and development
-- **[RDK7 Release Notes](https://wiki.rdkcentral.com/display/RDK/RDK7+Release+Notes)** - Latest RDK7 architecture
-- **[Code Management Facility](https://wiki.rdkcentral.com/display/CMF/CMF+Home)** - Code releases and repositories
-- **[Forums](https://wiki.rdkcentral.com/display/FORUMS/FORUMS+Home)** - Community discussions
-
 </div>
