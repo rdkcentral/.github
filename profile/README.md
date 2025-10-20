@@ -22,7 +22,7 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 <tr>
 <td width="50%">
 
-### 📺 RDK-V (Video)
+### 📺 RDK-E (Enterainment OS)
 **Common method to manage video playback functions**
 - Content delivery (VOD, SDV, iPPV, Video over Wi-Fi)
 - DRM (Adobe Access, PlayReady, Widevine)
