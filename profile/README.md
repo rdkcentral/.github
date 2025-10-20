@@ -1,6 +1,6 @@
 # Welcome to RDK Central 🚀
 
-![RDK][https://rdkcentral.com/wp-content/uploads/2023/07/RDK-Logo-web.png]
+![RDK](https://rdkcentral.com/wp-content/uploads/2023/07/RDK-Logo-web.png)
 
 ## About RDK Central
 
