@@ -1,6 +1,6 @@
 # Welcome to RDK Central 🚀
 
-![RDK Global Summit 2025](https://rdkcentral.com/wp-content/uploads/2025/06/2025-Global-Summit-logo-on-light-RGB-768x321.png)
+![RDK][https://rdkcentral.com/wp-content/uploads/2023/07/RDK-Logo-web.png]
 
 ## About RDK Central
 
@@ -52,7 +52,5 @@ Utilizing open source components, RDK drastically reduces development cycles, en
 </table>
 
 ## 🤝 Get Involved
-
-### 🚀 New to RDK?
 [![Get Involved](https://img.shields.io/badge/🚀_Get_Involved-Join_RDK-blue?style=for-the-badge)](https://rdkcentral.com/join)
 </div>
